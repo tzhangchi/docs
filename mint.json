@@ -55,7 +55,8 @@
         "introduction",
         "quickstart",
         "authentication",
-        "rate-limits"
+        "rate-limits",
+        "examples"
       ]
     }
   ],
