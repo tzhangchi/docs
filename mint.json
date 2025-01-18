@@ -5,7 +5,7 @@
     "dark": "https://cdn.llamagen.ai/web_public/LlamaGen.Ai-Brand-Assets/Full-Logo/White%402x.png",
     "light": "https://cdn.llamagen.ai/web_public/LlamaGen.Ai-Brand-Assets/Full-Logo/Black%402x.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://llamagen.ai/favicon.ico",
   "colors": {
     "primary": "#fcaf1b",
     "light": "#fcaf1b",
