@@ -1,0 +1,41 @@
+---
+title: 'Authentication'
+description: 'Learn how to authenticate your requests to LlamaGen.AI'
+---
+
+## Getting Your API Key
+
+1. Sign up for a LlamaGen.AI account at [dashboard.llamagen.ai](https://dashboard.llamagen.ai)
+2. Navigate to the API section
+3. Click "Generate New API Key"
+4. Copy and securely store your API key
+
+<Note>
+  API keys are only shown once at creation time. Store them securely and never share them publicly.
+</Note>
+
+## Using Your API Key
+
+Include your API key in the `Authorization` header of all requests:
+
+
+```bash
+curl -X POST 'https://api.llamagen.ai/v1/comics/generations' \
+-H 'Authorization: Bearer $LLAMAGENAI_API_KEY' \
+-H 'Content-Type: application/json' \
+-d '{
+"prompt": "Your comic prompt here"
+}'
+```
+
+
+## API Key Best Practices
+
+- Never expose your API key in client-side code
+- Use environment variables to store your API key
+- Rotate your API keys periodically
+- Use different API keys for development and production
+
+## Rate Limits
+
+Each API key has its own rate limits. See our [rate limits page](/rate-limits) for more details.
